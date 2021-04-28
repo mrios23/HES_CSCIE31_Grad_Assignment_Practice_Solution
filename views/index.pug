@@ -6,7 +6,6 @@ block content
     h4 An exercise is to practice express routing.
     p In this exercise you will add the code to handle when clicking the below button, the application will navigate to a web page. 
       | Most of the code has been handled for you, you just need to create a router to handle when the button is pressed.
-      | Hint: When the button is pressed the url should change to "http://localhost:8080/clickedBtn"
     p To do this you will need to do the following: 
     ol
       li Begin by creating a new router file, called 'buttonRouter.js' in the routes folder. 
@@ -20,7 +19,7 @@ block content
         ul
           li Require the new 'buttonRouter.js' router you created from the routers folder.
           li Once it is required, we can now use the router.
-          li Use "app.use()", mount the router middleware at the specified path: the middleware function is executed when the base of the requested path matches path.
+          li Use "app.use()" to mount the router middleware at the specified path. Note: the middleware function is executed when the base of the requested path matches path.
     p Once updated, click the below button. You will know its successful if it correctly navigates to the "Hooray" page.
 
   a(href="./clickedButton" class="btn btn-info" role="button") Click me!
